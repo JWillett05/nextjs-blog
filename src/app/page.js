@@ -16,7 +16,7 @@ export default function Home() {
           
       </main>
     </div>
-    <section>
+    <section className={styles.productLayoutWrapper}>
       <ul className={styles.productLayout}>
         {Data.map((productItem) => (
         <Products key={productItem.title} {...productItem}/>

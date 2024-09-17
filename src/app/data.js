@@ -5,7 +5,7 @@ export const Data = [
     title: 
         'Iphone',
     description:
-        'The core UI building block - compose the user interface by combining multiple components.',
+        'The iphone is great at everyday use and much more',
     price:
         '£999'
   },
@@ -15,7 +15,7 @@ export const Data = [
     title: 
         'Iphone',
     description:
-        'The core UI building block - compose the user interface by combining multiple components.',
+        'The iphone is great at everyday use and much more',
     price:
         '£999'
   },
@@ -25,7 +25,7 @@ export const Data = [
     title: 
         'Iphone',
     description:
-        'The core UI building block - compose the user interface by combining multiple components.',
+        'The iphone is great at everyday use and much more',
     price:
         '£999'
   },
@@ -35,7 +35,7 @@ export const Data = [
     title: 
         'Iphone',
     description:
-        'The core UI building block - compose the user interface by combining multiple components.',
+        'The iphone is great at everyday use and much more',
     price:
         '£999'
   },
@@ -45,7 +45,17 @@ export const Data = [
     title: 
         'Iphone',
     description:
-        'The core UI building block - compose the user interface by combining multiple components.',
+        'The iphone is great at everyday use and much more',
+    price:
+        '£999'
+  },
+  {
+    // image: 
+    //     iphoneImg,
+    title: 
+        'Iphone',
+    description:
+        'The iphone is great at everyday use and much more',
     price:
         '£999'
   },
