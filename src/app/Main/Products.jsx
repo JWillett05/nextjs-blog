@@ -8,10 +8,10 @@ export default function Product_Items({image, title, description, price}) {
     //   </div>
 
         <li className={styles.products}>
-            {/* <img src={image} alt={title} /> */}
-            <h2 className={itemTitle}>{title}</h2>
-            <p>{description}</p>
-            <h5>{price}</h5>
+            <img className={styles.images} src={image} alt={title} />
+            <h2 className={styles.itemTitle}> {title} </h2>
+            <p className={styles.itemDesc}> {description} </p>
+            <h5 className={styles.itemPrice}> {price} </h5>
         </li>
     );
   }
