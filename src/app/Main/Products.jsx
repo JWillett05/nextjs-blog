@@ -9,7 +9,7 @@ export default function Product_Items({image, title, description, price}) {
 
         <li className={styles.products}>
             {/* <img src={image} alt={title} /> */}
-            <h2 className="itemTitle">{title}</h2>
+            <h2 className={itemTitle}>{title}</h2>
             <p>{description}</p>
             <h5>{price}</h5>
         </li>
