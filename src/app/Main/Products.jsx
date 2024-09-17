@@ -6,9 +6,11 @@ export default function Product_Items({image, title, description}) {
     //   <div className={styles.products}>
     //       {product}
     //   </div>
+
+    
     <li className={styles.products}>
         {/* <img src={image} alt={title} /> */}
-        <h2>{title}</h2>
+        <h2 className="itemTitle">{title}</h2>
         <p>{description}</p>
     </li>
     );
