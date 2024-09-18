@@ -75,6 +75,28 @@
 .itemLink{
   text-decoration: none;
 }
+.cartHeader{
+  color: red;
+  text-align: center;
+}
+.cartBackground{
+  background-color: rgb(190, 197, 197);
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  width: 500px;
+}
+.checkoutButton{
+  color: white;
+  background-color: rgb(94, 165, 206);
+  width: 250px;
+  height: 50px;
+}
+
+
+
+
+
 
 
 

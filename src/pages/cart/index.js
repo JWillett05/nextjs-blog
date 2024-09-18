@@ -1,8 +1,14 @@
+import styles from "@/page.module.css"
+import CartHeader from "@/components/CartHeader";
+
 export default function Cart(){
     return(
-    <div>
-        <h1>Welcome to your Cart</h1>
-        <p>Yes this is your cart</p>
+    <div className={styles.page}>
+        <div className={styles.cartBackground}>
+            <div className={styles.cartHeader}>
+                <CartHeader>Cart</CartHeader>
+            </div>
+        </div>
     </div>
     );
 }
