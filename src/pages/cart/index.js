@@ -11,6 +11,7 @@ export default function Cart(){
             <div className={styles.cartBackground}>
                 <CartHeader />
                 <CartItems />
+                <div className={styles.checkoutButton}>Checkout</div>
             </div>
         </div>
     </>

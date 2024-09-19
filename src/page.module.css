@@ -92,6 +92,7 @@
   border-radius: 15px;
 }
 .checkoutButton{
+  font-size: 1.25rem;
   color: white;
   background-color: rgb(94, 165, 206);
   position: absolute;
@@ -99,7 +100,10 @@
   width: 80%;
   height: 10%;
   border: none;
-
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  align-content: center;
 }
 .addToCartButton{
   color: white;

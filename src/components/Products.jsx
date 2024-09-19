@@ -15,7 +15,7 @@ export default function Product_Items({ product }) {
             {/* <img className={styles.images} src={image} alt={title} /> */}
             <h2 className={styles.itemTitle}> {product.title} </h2>
             <p className={styles.itemDesc}> {product.description} </p>
-            <h5 className={styles.itemPrice}> {product.price} </h5>
+            <h5 className={styles.itemPrice}> £{product.price} </h5>
             <button onClick={handleAddToCart} className={styles.addToCartButton}>Add to cart</button>
         </li>
     </a>
