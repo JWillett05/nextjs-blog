@@ -69,10 +69,6 @@
   margin-right: 15px;
   margin-bottom: -30px;
 }
-.itemPrice{
-  font-size: 15px;
-  color: #424242;
-}
 .images{
   width: 100px;
   height: 100px
@@ -146,13 +142,23 @@
   color: rgb(255, 255, 255);
   font-size: 30px;
   padding: 0;
+  position: relative;
+}
+.itemPriceCart{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  font-size: 20px;
+  color: rgb(151, 82, 82);
+  font-weight: bold;
+  margin-right: 10px;
 }
 .itemPrice{
-  display: flex;
-  justify-content: flex-end;
   font-size: 20px;
+  color: rgb(151, 82, 82);
+  font-weight: bold;
+  margin-right: 10px;
 }
-
 
 
 
