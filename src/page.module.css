@@ -48,10 +48,11 @@
   height: 250px;
   width: 250px;
   object-fit: contain; 
+  margin-top: -100px;
 }
 .products {
   width: 400px;
-  height: 650px;
+  height: 500px;
   background-color: #55679C;
   border-radius: 15px;
   text-align: center;
@@ -61,22 +62,14 @@
   flex-direction: column;
   align-items: center;
 }
-.priceButtonWrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-end;
-  width: 80%;
-  position: absolute;
-  bottom: 25px; /* Space from the bottom of the container */
-}
 
 
-.itemTitle {
-  grid-row: 1;
-  font-size: 25px;
+
+.itemPrice {
+  font-size: 20px;
   color: #E1D7B7;
-  margin: 20px;
+  font-weight: bold;
+  margin-bottom: 10px; /* Space between price and button */
 }
 .itemDesc {
   grid-row: 2;
@@ -120,11 +113,20 @@
   color: #1E2A5E;
   background-color: #E1D7B7;
   width: 80%;
-  height: 10%;
   border: none;
   font-weight: 600;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   cursor: pointer;
+  height: 40px;
+}
+.priceButtonWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  width: 80%;
+  position: absolute;
+  bottom: 25px;
 }
 .navBar{
   background-color: #55679C;
