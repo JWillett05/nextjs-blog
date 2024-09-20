@@ -15,8 +15,8 @@ export default function OrderPage(){
             <div className={styles.page}>
                 <div className={styles.cartBackground}>
                     <div className={styles.orderPageThanks}>
-                    <h1 className={styles.header}>Thank you for your order</h1>
-                    <p className={styles.itemDesc}>It will be shipped soon.</p>
+                    <h1 className={styles.headerOrder}>Thank you for your order</h1>
+                    <p className={styles.itemDescOrder}>It will be shipped soon.</p>
                     </div>
                         <button className={styles.checkoutButton} onClick={handleHomeClick}>
                             <div className={styles.checkoutPrice}>Back to Home</div>

@@ -202,16 +202,24 @@
   border: none;
   background: none;
   font-family: 'Merriweather';
-  font-size: 20px;
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
+  font-size: 25px;
 }
 .orderPageThanks{
   margin: auto;
   text-align: center;
   padding-top: 100px;
   font-size: 20px;
+  color: #E1D7B7;
+}
+.itemDescOrder{
+  font-size: 25px;
+  font-family: 'Montserrat';
+  font-weight: 500;
+}
+.headerOrder{
+  font-size: 40px;
+  font-family: 'Montserrat';
+  font-weight: 700;
 }
 
 
