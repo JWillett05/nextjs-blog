@@ -4,9 +4,17 @@ import NavBar from "@/components/nav";
 import CartItems from "@/components/CartItems";
 import { useContext } from "react";
 import { CartContext } from "@/contexts/cart-context";
+import { useRouter } from "next/router";
 
  
 export default function Cart(){
+
+    const router = useRouter()
+
+    const handleOrderPageClick = () => {
+        router.push('OrderPage')
+    }
+
     const { cartItems = [] } = useContext(CartContext);
 
   const totalPrice = cartItems.reduce((total, item) => total + (Number(item.price) || 0), 0);
@@ -18,10 +26,11 @@ export default function Cart(){
                 <div className={styles.cartBackground}>
                     <CartHeader />
                     <CartItems cartItems={cartItems} totalPrice={totalPrice}/>
-                    <div className={styles.checkoutButton}> <div className={styles.checkoutPrice}>Checkout • £{totalPrice.toFixed(2)}</div>
+                    <button className={styles.checkoutButton} onClick={handleOrderPageClick}>
+                    <div className={styles.checkoutPrice}>Checkout • £{totalPrice.toFixed(2)}</div>
+                    </button>
                 </div>
             </div>
-        </div>
     </>
     );
 }

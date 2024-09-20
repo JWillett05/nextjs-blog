@@ -15,7 +15,7 @@ export default function CartItems({ cartItems, totalPrice }) {
         {cartItems.map(item => (
           <li className={styles.cartItemList} key={item.id}>
             {item.title} <div className={styles.itemPriceCart}> £{(Number(item.price) || 0).toFixed(2)}</div>
-            <button></button>
+            <button className={styles.removeItem} onClick={() => handleDelete(item.id)}>🗑️</button>
           </li>
         ))}
       </ul>

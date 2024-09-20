@@ -20,7 +20,8 @@
 }
 .header {
   color: #E1D7B7;
-
+  font-family: 'Montserrat';
+  margin-top: 100px;
 }
 
 
@@ -49,10 +50,11 @@
   width: 250px;
   object-fit: contain; 
   margin-top: -100px;
+  padding-top: 10px;
 }
 .products {
   width: 400px;
-  height: 500px;
+  height: 550px;
   background-color: #55679C;
   border-radius: 15px;
   text-align: center;
@@ -69,55 +71,64 @@
   font-size: 20px;
   color: #E1D7B7;
   font-weight: bold;
-  margin-bottom: 10px; /* Space between price and button */
+  margin-bottom: 10px; 
 }
 .itemDesc {
   grid-row: 2;
-  font-size: 20px;
+  font-size: 18px;
   color: #E1D7B7;
   margin: 20px;
+  font-family: 'Merriweather';
+
 }
 .itemLink{
   text-decoration: none;
 }
+.itemTitle{
+  color: #E1D7B7;
+  text-align: center;
+  font-weight: 600;
+  font-family: 'Montserrat';
+}
 .cartHeader{
   color: #E1D7B7;
   text-align: center;
+  font-family: 'Montserrat';
 }
 .cartBackground{
   margin: auto;
-  margin-top: 50px;
+  margin-top: 100px;
   background-color :#55679C;
   display: flex;
   flex-direction: column;
-  height: 500px;
+  min-height: 500px;
   width: 500px;
   position: relative;  
   border-radius: 15px;
+
 }
 .checkoutButton{
   font-size: 1.25rem;
-  color: #1E2A5E;
-  background-color: #E1D7B7;
-  position: absolute;
-  bottom: 25px;
+  background-color: #1E2A5E;
   width: 80%;
-  height: 10%;
+  height: 50px;
   border: none;
   text-align: center;
-  left: 50%;
-  transform: translateX(-50%);
   align-content: center;
+  margin: auto;
+  margin-bottom: 10px;
+  border-radius: 5px;
 }
 .addToCartButton {
-  color: #1E2A5E;
-  background-color: #E1D7B7;
+  color: #E1D7B7;
+  background-color: #1E2A5E;
   width: 80%;
   border: none;
   font-weight: 600;
   font-size: 1.5rem;
   cursor: pointer;
   height: 40px;
+  font-family: 'Merriweather';
 }
 .priceButtonWrapper {
   display: flex;
@@ -135,26 +146,25 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  z-index: 1000;
 }
 .cartNav{
   background-color: #1E2A5E;
   color: #E1D7B7;
-  width: 10%;
+  width: 15%;
   height: 65%;
   margin-right: 100px;
   cursor: pointer;
   font-size: 1.25rem;
+  font-family: 'Montserrat';
 }
 .productNavBar{
   color: #E1D7B7;
   margin-left: 100px;
   background: none;
   border: none;
-}
-.cartItemDesc{
-  list-style-type: none;
-  color: #825B32;
-  font-size: 20px;
+  font-family: 'Montserrat';
 }
 .cartItemList{
   list-style-type: none;
@@ -176,7 +186,7 @@
   font-size: 20px;
   color: #E1D7B7;
   font-weight: bold;
-  margin-bottom: 10px; /* Space between price and button */
+  margin-bottom: 10px;
 }
 .line{
   border-bottom: 1px solid #1E2A5E;
@@ -185,8 +195,23 @@
 }
 .checkoutPrice{
   font-size: 20px;
-  color: #1E2A5E;
+  color: #E1D7B7;
   font-weight: bold;
+}
+.removeItem{
+  border: none;
+  background: none;
+  font-family: 'Merriweather';
+  font-size: 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.orderPageThanks{
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+  font-size: 20px;
 }
 
 
