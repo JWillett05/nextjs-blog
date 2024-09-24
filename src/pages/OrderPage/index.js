@@ -7,7 +7,7 @@ export default function OrderPage(){
     const router = useRouter();
 
     const handleHomeClick = () => {
-        router.push('http://localhost:3000');
+        router.push('/');
     };
     return (
         <>
